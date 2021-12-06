@@ -1,0 +1,17 @@
+{
+  "name": "Notification Deflector",
+  "description": "Simple plugin that automatically denies and makes website think that notifications are allowed.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+        "js": ["bg.js"],
+		"run_at": "document_start",
+        "matches": ["<all_urls>"]
+    }],
+	"icons": {
+		"16": "/icons/16fly.png",
+		"32": "/icons/32fly.png",
+		"48": "/icons/48fly.png",
+		"128": "/icons/128fly.png"
+	}
+}
