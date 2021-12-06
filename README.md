@@ -1,4 +1,4 @@
-# Notify-Deflector
+# NotifyDeflector
 Simple chromium plugin that automatically denies and makes website think that notifications are allowed.
 
 # Installation
